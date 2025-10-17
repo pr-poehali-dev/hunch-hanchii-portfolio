@@ -223,11 +223,35 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-16 px-6 bg-gradient-to-r from-purple-100/50 to-pink-100/50">
+        <div className="container mx-auto max-w-2xl">
+          <Card className="border-2 border-purple-300 shadow-xl">
+            <CardContent className="p-8 text-center">
+              <Icon name="Phone" size={48} className="mx-auto mb-4 text-purple-600" />
+              <h2 className="text-3xl font-bold mb-4 text-purple-800">Свяжитесь с нами</h2>
+              <p className="text-purple-600 mb-6">
+                Хотите узнать больше о тайнах Хунч-Ханчии или найти подземный город Глебусик?
+              </p>
+              <a 
+                href="tel:+79965939332"
+                className="inline-flex items-center gap-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-4 rounded-full text-xl font-semibold hover:shadow-lg transition-all hover:scale-105"
+              >
+                <Icon name="Phone" size={24} />
+                +7 996 593 93 32
+              </a>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
       <footer className="bg-gradient-to-r from-purple-900 to-pink-900 text-white py-12 px-6">
         <div className="container mx-auto text-center">
           <div className="text-4xl mb-4">✨ 🪐 ✨</div>
           <h3 className="text-2xl font-semibold mb-2">Добро пожаловать в Хунч-Ханчию</h3>
-          <p className="text-purple-200">Страна мечты на кольцах Сатурна</p>
+          <p className="text-purple-200 mb-3">Страна мечты на кольцах Сатурна</p>
+          <a href="tel:+79965939332" className="text-purple-300 hover:text-white transition-colors">
+            +7 996 593 93 32
+          </a>
         </div>
       </footer>
     </div>
